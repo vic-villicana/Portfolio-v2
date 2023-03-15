@@ -1,0 +1,32 @@
+.aboutMe{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    padding-top: 9em;
+    background: #3F4B3B;
+}
+
+.picture{
+    width: 40%;
+    height: auto;
+}
+
+.specialty{
+    margin-top: 2em;
+}
+
+.bio{
+    max-width: 60%;
+    background: linear-gradient(#3F4B3B, rgb(59, 65, 75));
+}
+
+.bioSquare{
+    max-width: 75%;
+    margin: 5em auto 6em auto;
+}
+
+.certified{
+    margin-top: 1.5em;
+}

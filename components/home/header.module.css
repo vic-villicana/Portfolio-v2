@@ -1,0 +1,32 @@
+.header{
+    position: relative;
+    height: 100vh;
+    background: #3F4B3B;
+}
+.pip{
+    position: relative;
+    background: url(/images/golden-hour.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 75%;
+    height: 75%;
+    margin: 0 auto;
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.heroBox{
+    position: relative;
+    padding: 1em;
+    text-align: center;
+    display: inline-block;
+    background: black;
+
+    box-shadow: 1.5px 0.5px 3px 3px rgb(0 0 0 / 59%);
+    text-transform: capitalize;
+}
