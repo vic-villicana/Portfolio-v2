@@ -20,7 +20,7 @@ export default function BlogPost(){
     return (
         <div>
             <BlogHeading title={data.title} />
-            <BlogInfo  date={data.date}  image={data.image} imageAlt={data.title} />
+            <BlogInfo  date={data.date}  image={data.image} imageAlt={data.title} category={data.isFeatured} />
             <BlogContent>
                 {data.description}
             </BlogContent>
