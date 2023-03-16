@@ -14,7 +14,7 @@ export default function BlogItem(props) {
 
     return(
         <li className={classes.item}>
-            <img alt={title} src={image} />
+            <img alt={title} src={'/' + image} />
             <div className={classes.content}>
                 <div className={classes.summary}>
                     <h2>{title}</h2>
@@ -27,7 +27,7 @@ export default function BlogItem(props) {
                 </div>
 
                 <div className={classes.actions}>
-                    <Link clasName={classes} href={exploreLink}>Read</Link>
+                    <Link href={exploreLink}>Read</Link>
                 </div>
             </div>
         </li>
