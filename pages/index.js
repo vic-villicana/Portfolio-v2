@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 import Header from '../components/home/header'
 import AboutSection from '../components/home/about-section'
-
+import ContactForm from '../components/home/contact-form'
 export default function MainPage() {
     return (
         <div>
@@ -15,6 +15,7 @@ export default function MainPage() {
             </ul>
             <Header />
             <AboutSection/>
+            <ContactForm />
         </div>
     )
 }
