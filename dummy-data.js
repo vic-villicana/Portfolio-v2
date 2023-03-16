@@ -7,7 +7,7 @@ const DUMMY_EVENTS = [
       preview: 'lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute . ',
       date: '2021-05-12',
       image: 'images/code-computer-data.jpg',
-      isFeatured: 'Blockchain',
+      isFeatured: 'blockchain',
     },
     {
       id: 'e2',
@@ -17,7 +17,7 @@ const DUMMY_EVENTS = [
       preview: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       date: '2021-05-30',
       image: 'images/golden-hour.jpg',
-      isFeatured: 'Productivity',
+      isFeatured: 'productivity',
     },
     {
       id: 'e3',
@@ -27,7 +27,7 @@ const DUMMY_EVENTS = [
       preview: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
       date: '2022-04-10',
       image: 'images/meeting2.jpg',
-      isFeatured: 'Development',
+      isFeatured: 'development',
     },
   ];
   
