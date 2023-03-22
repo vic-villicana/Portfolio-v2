@@ -6,7 +6,6 @@ import ContactForm from '../components/home/contact-form'
 export default function MainPage() {
     return (
         <div>
-            <h1>VICTOR URIBE</h1>
             <ul>
                 <Link href='/contact' >contact </Link>
                 <Link href='/projects' >projects </Link>
