@@ -1,0 +1,29 @@
+
+.PJheader{
+    position:relative;
+    height:30em;
+    display:flex;
+}
+
+.picture{
+    width: 45%;
+    height: auto;
+}
+
+.intro{
+    background:black;
+    color:white;
+}
+
+.PJtext{
+    width:60%;
+    margin:3em auto;
+}
+
+.PJtext p{
+    text-align:justify;
+}
+.PJtext h2{
+    margin-bottom:.5em;
+    text-align: center;
+}

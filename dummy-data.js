@@ -90,7 +90,39 @@ const DUMMY_EVENTS = [
       isFeatured: 'development',
     },
   ];
+
+  const dummy_pjs = [
+    {
+      id: 'v1',
+      title: 'Juicy Juize Tacos',
+      description:"Juicy Juize Tacos is a catering service and pop-up food stand that primarily serves Los Angeles and the San Fernando Valley. This project primarily focuses on the food stand and how to make ordering faster, easier, more stream-lined.",
+      image: '/images/sign.jpg',
+      isFeatured: 'development',
+    },
+    {
+      id: 'v2',
+      title: 'The Tipsy Bar',
+      description:"The Tipsy Bar is a bartending service and pop-up food stand that primarily serves Los Angeles and the San Fernando Valley. This project primarily focuses on the food stand and how to make ordering faster, easier, more stream-lined.",
+      image: '/images/bar-bartender.jpg',
+      isFeatured: 'development',
+    },
+    {
+      id: 'v3',
+      title: 'SmartContract-Lottery',
+      description:"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      image: '/images/code-computer-data.jpg',
+      isFeatured: 'development',
+    },
+    
+
+  ]
   
+  export function GetCurrentProjects(){
+    
+    return dummy_pjs
+
+  }
+
   export function getFeaturedEvents(string) {
     return DUMMY_EVENTS.filter((event) => event.isFeatured === string);
   }
