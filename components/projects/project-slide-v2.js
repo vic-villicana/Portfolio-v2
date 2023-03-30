@@ -3,11 +3,13 @@ import classes from './project-slide.module.css'
 
 export default function ProjectSlideV2() {
     return(
-            <div className={classes.slide}>
+            <div className={classes.slideContainer}>
 
-                <div className={classes.project}>
-                <div className={classes.slide} >
-                        <div className={classes.content}>
+                <div className={classes.projectv2}>
+                    <img className={classes.PJpicturev2} src="/images/sign.jpg" alt="" />
+
+                    <div className={classes.slidev2} >
+                        <div className={classes.contentv2}>
                             <h2>Juizy Juize Tacos</h2>
                             <h2>-</h2>
                             <p>
@@ -16,12 +18,11 @@ export default function ProjectSlideV2() {
                                 Valley. This project primarily focuses on the food stand and 
                                 how to make ordering faster, easier, more stream-lined.
                             </p>
-                            <div className={classes.btn}>
+                            <div className={classes.btnv2}>
                                 <Link href="/projects/Juizy">View Project</Link>
                             </div>
                         </div>
                     </div>
-                    <img className={classes.PJpicture} src="/images/sign.jpg" alt="" />
                     
                 </div>
                 
