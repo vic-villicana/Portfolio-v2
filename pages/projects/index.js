@@ -4,6 +4,7 @@ import ProjectSlide from '../../components/projects/project-slide'
 import ProjectSlider from '../../components/projects/project-slider'
 import ProjectHeader from '../../components/projects/project-header'
 import ContactForm from '../../components/home/contact-form'
+import Footer from '../../components/footer/footer'
 
 
 export default function Projects(props) {
@@ -23,6 +24,7 @@ export default function Projects(props) {
             <ProjectHeader />
             <ProjectSlider projects={projects} />
             <ContactForm />
+            <Footer />
 
         </div>
     )

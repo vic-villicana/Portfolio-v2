@@ -3,6 +3,8 @@ import Link from 'next/link'
 import Header from '../components/home/header'
 import AboutSection from '../components/home/about-section'
 import ContactForm from '../components/home/contact-form'
+import Footer from '../components/footer/footer'
+
 export default function MainPage() {
     return (
         <div>
@@ -14,6 +16,7 @@ export default function MainPage() {
             <Header />
             <AboutSection/>
             <ContactForm />
+            <Footer />
         </div>
     )
 }
