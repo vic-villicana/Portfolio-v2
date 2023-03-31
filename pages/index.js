@@ -9,7 +9,6 @@ export default function MainPage() {
             <ul>
                 <Link href='/contact' >contact </Link>
                 <Link href='/projects' >projects </Link>
-                <Link href='/about' >about </Link>
                 <Link href='/blog'>blog </Link>
             </ul>
             <Header />

@@ -12,7 +12,6 @@ export default function Projects(props) {
     useEffect(() => {
         fetch('api/projects').then(response => response.json()).then(data => setProjects(data.projects))
     }, [])
-    console.log(projects)
     return (
         <div>
             {/* <div>All Projects</div>
@@ -22,7 +21,7 @@ export default function Projects(props) {
                 <li></li>
             </ul> */}
             <ProjectHeader />
-            <ProjectSlider  />
+            <ProjectSlider projects={projects} />
             <ContactForm />
 
         </div>
@@ -30,3 +29,9 @@ export default function Projects(props) {
 }
 
 
+// export async function getStaticProps(){
+//     const response = await queryDatabase()
+//     console.log(JSON.stringify(response))
+//     parsedResponse = JSON.stringify(response)
+//     return {props:{dataProps:parsedResponse}}
+// }

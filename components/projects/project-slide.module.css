@@ -10,7 +10,8 @@
     display:flex;
     flex-direction:row;
     height:auto;
-    margin:0 auto;
+    margin:3.5em auto;
+    max-width:fit-content;
     /* max-width:fit-content; */
 }
 .content{
@@ -74,10 +75,11 @@
 .slideContainer{
     display:flex;
     flex-direction:row;
-    height:100%;
-    margin:1em 1em 0 1em;
+    height:617px;
+    margin:1em 2em 0 2em;
     max-width:fit-content;
     border-radius:6px;
+    background: aliceblue;
 
 }
 .sliderv2{
@@ -115,7 +117,6 @@
         display:flex;
     flex-direction:column;
     height:auto;
-    background: aliceblue;
     max-width:600px;
     border-radius:6px;
 
@@ -137,7 +138,7 @@
     display:flex;
     flex-direction:column;
     max-width:425px;
-    box-shadow: 4px 4px 9px black;
+    box-shadow: 2px 4px 12px black;
     border-radius:6px;
 
 }
