@@ -1,11 +1,17 @@
 import Link from 'next/link'
-
+import {useEffect, useState} from 'react'
 import Header from '../components/home/header'
 import AboutSection from '../components/home/about-section'
 import ContactForm from '../components/home/contact-form'
+import ProjectSlider from '../components/projects/project-slider'
 import Footer from '../components/footer/footer'
 
 export default function MainPage() {
+
+    const [projects, setProjects] = useState([])
+    useEffect(() => {
+        fetch('api/projects').then(response => response.json()).then(data => setProjects(data.projects))
+    }, [])
     return (
         <div>
             <ul>
@@ -15,6 +21,7 @@ export default function MainPage() {
             </ul>
             <Header />
             <AboutSection/>
+            <ProjectSlider projects={projects} />
             <ContactForm />
             <Footer />
         </div>

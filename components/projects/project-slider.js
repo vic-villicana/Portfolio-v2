@@ -9,9 +9,15 @@ export default function ProjectSlider(props) {
     const allProjects = props.projects.map(project => <ProjectSlideV2 key={project.pjid} id={project.pjid} title={project.title} description={project.description} image={project.image} />)
     console.log(allProjects)
     return(
+        <section className={classes.sliderSection}>
+            <div className={classes.sliderHeading}>
+                <h2>Current Works</h2>
+            </div>
             <div className={classes.slider}>
                 {allProjects}
             </div>
+
+        </section>
 
     )
 
