@@ -8,8 +8,8 @@
     background: url(/images/golden-hour.jpg);
     background-position: center;
     background-size: cover;
-    width: 75%;
-    height: 75%;
+    width: 80%;
+    height: 80%;
     margin: 0 auto;
     top: 5%;
     display: flex;
@@ -22,11 +22,13 @@
 
 .heroBox{
     position: relative;
-    padding: 1em;
+    padding: 1.25em;
     text-align: center;
     display: inline-block;
     background: black;
     color:white;
     box-shadow: 1.5px 0.5px 3px 3px rgb(0 0 0 / 59%);
     text-transform: capitalize;
+    font-family: 'Exo 2', sans-serif;
+
 }
