@@ -29,8 +29,9 @@ export default function ContactForm() {
     }
 
     return (
-        <form className={classes.form} onSubmit={handleSubmit}>
-            <h2>Contact Me!</h2>
+        <section className={classes.formSection}>
+            <form className={classes.form} onSubmit={handleSubmit}>
+                <h2>Contact Me!</h2>
                 <div className={classes.control}>
                     <label htmlFor="name"></label>
                     <input name="name" type='text' placeholder="Name" ref={nameRef}/>
@@ -44,7 +45,9 @@ export default function ContactForm() {
                     <textarea  name="textarea" type='text' placeholder="How can I help?" ref={messageRef}/>
                 </div>
 
-            <Button>Submit</Button>
-        </form>
+                <Button>Submit</Button>
+            </form>
+        </section>
+        
     )
 }

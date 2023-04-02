@@ -85,7 +85,6 @@
 .slideContainer{
     display:flex;
     flex-direction:row;
-    height:617px;
     margin:1em 2em 0 2em;
     max-width:fit-content;
     border-radius:6px;
@@ -111,7 +110,7 @@
     bottom: 141px;
     max-width: 600px;
     color: black;
-    padding:2em;
+    padding:1em 2em 1em 2em;
     display:flex;
     flex-direction:column;
     justify-content:center;
