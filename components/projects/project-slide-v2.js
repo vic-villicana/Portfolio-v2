@@ -12,7 +12,7 @@ export default function ProjectSlideV2(props) {
                     <div className={classes.slidev2} >
                         <div className={classes.contentv2}>
                             <h2>{props.title}</h2>
-                            <h2>-</h2>
+                            <div className={classes.pLine}></div>
                             <p>
                                 {props.description}
                             </p>
