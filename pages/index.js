@@ -5,6 +5,7 @@ import AboutSection from '../components/home/about-section'
 import ContactForm from '../components/home/contact-form'
 import ProjectSlider from '../components/projects/project-slider'
 import Footer from '../components/footer/footer'
+import NavBar from '../components/navbar/navbar'
 
 export default function MainPage() {
 
@@ -14,11 +15,12 @@ export default function MainPage() {
     }, [])
     return (
         <div>
-            <ul>
+            {/* <ul>
                 <Link href='/contact' >contact </Link>
                 <Link href='/projects' >projects </Link>
                 <Link href='/blog'>blog </Link>
-            </ul>
+            </ul> */}
+            <NavBar />
             <Header />
             <AboutSection/>
             <ProjectSlider projects={projects} />
