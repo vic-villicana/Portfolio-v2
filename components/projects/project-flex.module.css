@@ -1,0 +1,45 @@
+.proInfo{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4em;
+    background:rgb(59, 65, 75);
+}
+
+.proInfoContainer {
+    position: relative;
+    padding: 6em 3em;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.respo {
+    justify-content: space-between;
+}
+
+.imgContainer {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 100%;
+}
+.bioSquare p {
+    font-size:120%;
+}
+.bioSquare h2 {
+    font-family: 'Exo 2', sans-serif;
+    padding-bottom: 0.5em;
+    color: #8fe7f7;
+    font-size: 2.5em;
+}
+.bioSquare {
+    max-width: 75%;
+    margin: 5em auto 6em auto;
+    color:white;
+}
+
+.bs5{
+}

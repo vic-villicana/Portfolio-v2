@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import {useEffect, useState} from 'react'
-import ProjectSlide from '../../components/projects/project-slide'
 import ProjectSlider from '../../components/projects/project-slider'
 import ProjectHeader from '../../components/projects/project-header'
 import ContactForm from '../../components/home/contact-form'
