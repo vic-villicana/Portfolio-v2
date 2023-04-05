@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>Web Development | Cloud Architecture Services</title>
         <link rel="Shortcut icon" href="/logo.svg" type="image/x-icon" />
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, nofollow"/>
         <meta name="viewport" content="initial-scale=1.0, width=device-width, shrink-to-fit=no" />
         <meta name="descrition" content="Freelance Web Developer and Cloud Architect. Building cost-effective apps that scale on the cloud is my business." />
       </Head>
