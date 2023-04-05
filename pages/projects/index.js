@@ -3,8 +3,8 @@ import {useEffect, useState} from 'react'
 import ProjectSlider from '../../components/projects/project-slider'
 import ProjectHeader from '../../components/projects/project-header'
 import ContactForm from '../../components/home/contact-form'
-import Footer from '../../components/footer/footer'
-import NavBar from '../../components/navbar/navbar'
+import Footer from '../../components/layout/footer'
+import NavBar from '../../components/layout/navbar'
 
 
 export default function Projects(props) {
@@ -21,12 +21,9 @@ export default function Projects(props) {
                 <li><Link href="/projects/dos">second project</Link></li>
                 <li></li>
             </ul> */}
-            <NavBar />
             <ProjectHeader />
             <ProjectSlider projects={projects} />
             <ContactForm />
-            <Footer />
-
         </div>
     )
 }

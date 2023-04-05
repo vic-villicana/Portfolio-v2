@@ -4,8 +4,8 @@ import Header from '../components/home/header'
 import AboutSection from '../components/home/about-section'
 import ContactForm from '../components/home/contact-form'
 import ProjectSlider from '../components/projects/project-slider'
-import Footer from '../components/footer/footer'
-import NavBar from '../components/navbar/navbar'
+import Footer from '../components/layout/footer'
+import NavBar from '../components/layout/navbar'
 
 export default function MainPage() {
 
@@ -20,12 +20,10 @@ export default function MainPage() {
                 <Link href='/projects' >projects </Link>
                 <Link href='/blog'>blog </Link>
             </ul> */}
-            <NavBar />
             <Header />
             <AboutSection/>
             <ProjectSlider projects={projects} />
             <ContactForm />
-            <Footer />
         </div>
     )
 }
