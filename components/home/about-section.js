@@ -26,7 +26,7 @@ export default function AboutSection(){
                         Endless cups of Premium Japanese Green Tea is also 
                         a standard part of my process. 
                     </p>
-                    <img className={classes.certified} src="/images/aws-certified-solutions-architect-associate.png" alt="aws-badge" />
+                    <Image className={classes.certified} src="/images/aws-certified-solutions-architect-associate.png" alt="aws-badge"  height={110} width={110}/>
                     <div className="button"></div>
                     <div className="button"></div>
                 </div>
