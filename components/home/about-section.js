@@ -1,12 +1,12 @@
 import classes from './about-section.module.css'
+import Image from 'next/image'
 
 export default function AboutSection(){
     return (
         <section className={classes.aboutMe}>
-            <img className={classes.picture} src="/images/portfolio-pic.jpg" alt=""/>
+            <Image src="/images/portfolio-pic.jpg" alt="face" height={758} width={505}/>
             <div className={classes.bio}>
                 <div className={classes.bioSquare}>
-                    <p>about Me -</p>
                     <h2>Greetings!</h2>
                     <p>
                         Im Victor, a front/back-end developer and Cloud Architect 
