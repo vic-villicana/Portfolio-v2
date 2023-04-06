@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import classes from './project-slide.module.css'
+import Image from 'next/image'
 
 export default function ProjectSlideV2(props) {
     console.log(props)
@@ -7,8 +8,8 @@ export default function ProjectSlideV2(props) {
             <div className={classes.slideContainer}>
 
                 <div className={classes.projectv2}>
-                    <img className={classes.PJpicturev2} src={props.image} alt="" />
-
+                    {/* <img className={classes.PJpicturev2} src={props.image} alt="" /> */}
+                    <Image className={classes.PJpicturev2} src={props.image} alt={props.title} height={285} width={425}/>
                     <div className={classes.slidev2} >
                         <div className={classes.contentv2}>
                             <h2>{props.title}</h2>
