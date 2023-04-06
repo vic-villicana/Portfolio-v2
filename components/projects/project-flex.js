@@ -1,11 +1,12 @@
 import classes from './project-flex.module.css'
+import Image from 'next/image'
+
 export default function Projectflex() {
     return (
         <div className={classes.proInfo}>
             <div className={`${classes.proInfoContainer} ${classes.respo}`}>    
                 <div className={`${classes.imgContainer}`}>
-                    <img src="/images/juicyshot.png" alt="" height="600" width="285"/>
-                
+                    <Image src="/images/juicyshot.png" alt="" height="615" width="300" />
                     <div className={`${classes.bioSquare} ${classes.bs-5}`} >
                         <h2>A robust web app hosted on aws</h2>
                         <p>
