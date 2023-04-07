@@ -9,7 +9,7 @@
 
 .picture{
     width: 40%;
-    height: auto;
+    height: 80%;
     object-fit:cover;
     object-position: 50% 0%;
 }
@@ -23,15 +23,26 @@
     background: linear-gradient(#3F4B3B, rgb(59, 65, 75));
 }
 
+.bioSquare h2{
+    font-size:190%;
+}
 .bioSquare{
     max-width: 75%;
-    margin: 5em auto 6em auto;
+    margin:2em auto 0em auto;
     color: white;
-    font-size:150%;
+    font-size:160%;
 }
 
 .certified{
     margin-top: 1.5em;
+}
+
+
+@media(max-width:1500px){
+    .bioSquare{
+  
+        font-size:130%;
+    }
 }
 
 
