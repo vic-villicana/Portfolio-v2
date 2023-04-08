@@ -1,0 +1,51 @@
+.mainContainer{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    background:rgb(59, 65, 75);
+    align-items:center;
+    font-family:'Exo 2', sans-serif;
+    font-size:120%;
+    color:white;
+    height:800px;
+    justify-content:center;
+}
+
+.processTitle{
+    font-size:145%;
+    margin-bottom:1.5rem;
+}
+
+.processContainer{
+    display:flex;
+    flex-direction:column;
+}
+.rowProcess{
+    display:flex;
+    flex-direction:row;
+}
+
+.pLine{
+    width:60%;
+    border-bottom:1px solid #74F2CE;
+    margin:0 auto;
+    height:2px;
+    justify-self:start;
+}
+
+.item {
+    width:300px;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    margin:1.5rem;
+}
+
+.item h2{
+
+
+}
+
+.item p{
+
+}

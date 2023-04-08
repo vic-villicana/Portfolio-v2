@@ -23,6 +23,8 @@ export default function Projectflex() {
                     </div>
                 </div>
             </div> 
+            <div className={classes.pLine}></div>
+
         </div>
 
     )

@@ -7,8 +7,8 @@ export default function Footer() {
             <div className={classes.fLine}></div>
             <div className={classes.footer}>
                 <div className={classes.iconGroup}>
-                    <Image className={classes.fIcon}src={'images/ionicons_linkedin.svg'} alt="" height={45} width={45}/>
-                    <Image className={classes.fIcon}src={'images/ionicons_github.svg'} alt="" height={45} width={45}/>
+                    <Image className={classes.fIcon}src={'/images/ionicons_linkedin.svg'} alt="" height={45} width={45}/>
+                    <Image className={classes.fIcon}src={'/images/ionicons_github.svg'} alt="" height={45} width={45}/>
                 </div>
                 <div className={classes.trademark}>
                     <p> shawty&reg; all rights reserved</p>
