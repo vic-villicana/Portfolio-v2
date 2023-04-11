@@ -7,7 +7,7 @@
 .headerTwo{
    
         position: relative;
-        height: 85vh;
+        height: 550px;
         width: 100%;
         background: url(/images/sign.jpg);
         background-position: center;
@@ -16,6 +16,7 @@
 }
 .void p{
         color:white;
+        font-size:85%;
 }
 .void h1{
         color: #8fe7f7;
@@ -28,10 +29,10 @@
         height: auto;
         z-index:30;
         position: relative;
-        max-width: 400px;
-        padding-top: 2em;
+        max-width: 450px;
+        /* padding-top: 2em; */
         text-align: center;
-        top: 7%;
+        top: 20%;
         display: inline-block;
         font-size: 1.25rem;
         -webkit-box-shadow: 1px 3px 4px 5px rgba(19, 19, 19, 0.562);
@@ -40,15 +41,15 @@
 }
 
 .v2{
-        padding: 2em 1em;
+        padding:1.25em 1em;
         text-align: left;
-        left: 15%;
+        /* left: 15%; */
 }
 
 .btn {
         display: inline-block;
         background: #B3001B;
-        padding: 0.5em 1em;
+        padding: 0.25em .75em;
         margin-top: 1.5em;
         border-radius: 4px;
         color:white;
