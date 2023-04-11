@@ -4,7 +4,7 @@ export default function TipsyHeading() {
     return (
         <div className={`${classes.headerTwo} ${classes.juiceHead}`}>
         <div className={`${classes.void} ${classes.v2}`}>
-            <Image src={"/images/tipsylogowhite.svg"} alt="company logo" width={250} height={100} />
+            <Image src={"/images/tipsylogowhite.svg"} alt="company logo" width={225} height={75} />
             <p>
                 A mobile local bartending service based out of Los Angeles, 
                 as a service based company they need a website that is able 
