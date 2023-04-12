@@ -17,6 +17,8 @@
 .links li{
     margin-left:.75em;
     color:white;
+    font-size: 125%;
+
 }
 .links {
     list-style:none;
@@ -34,6 +36,7 @@
 @media(max-width:700px){
 /* hammburger menu */
 /* hammburger menu */
+
 
 .links{
     display:none;
@@ -82,7 +85,7 @@
 
     .hamLinks li{
         margin:0 auto;
-
+        font-size:115%;
     }
 
     .navActive{
