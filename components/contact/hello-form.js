@@ -34,7 +34,7 @@ export default function ContactForm (){
         if(Object.keys(errors).length === 0){
             fetch('api/contact', {
                 method:"POST",
-                body:JSON.stringify(submitObj),
+                body:JSON.stringify(formData),
                 headers: {
                     'Content-Type': 'application/json'
                 }
