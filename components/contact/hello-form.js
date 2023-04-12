@@ -32,7 +32,15 @@ export default function ContactForm (){
         }
         const isErrors = validate(formData)
         if(Object.keys(errors).length === 0){
-            console.log("we have data")
+            fetch('api/contact', {
+                method:"POST",
+                body:JSON.stringify(submitObj),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            .then((data) => data.json())
+            .then(data => console.log(data))
         }
 
     }
