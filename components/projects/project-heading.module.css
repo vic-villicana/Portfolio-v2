@@ -7,7 +7,7 @@
 .headerTwo{
    
         position: relative;
-        height: 550px;
+        height: 750px;
         width: 100%;
         background: url(/images/sign.jpg);
         background-position: center;
@@ -43,7 +43,7 @@
 .v2{
         padding:1.25em 1em;
         text-align: left;
-        /* left: 15%; */
+        height:330px;
 }
 
 .btn {
@@ -54,3 +54,51 @@
         border-radius: 4px;
         color:white;
 }
+
+.PJheader{
+        position:relative;
+        height:35em;
+        display:flex;
+    }
+    
+    .picture{
+        width:100%;
+        height: 100%;
+    }
+    
+    .headerImage{
+        height:100%;
+        width:100%;
+    }
+    
+    .intro{
+        background:black;
+        color:white;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        height: 100%;
+        justify-content: space-between;
+        font-family:'Exo 2', sans-serif;
+    }
+    
+    .PJtext{
+        width:80%;
+        margin:0 auto;
+        position:relative;
+    }
+    
+    .PJtext p{
+        text-align:justify;
+    }
+    .PJtext h2{
+        margin-bottom:.5em;
+        text-align: center;
+    
+    }
+    
+    .hollowBtn{
+        border:aliceblue 1px solid;
+        padding:8px 14px;
+        position: relative;
+    }
