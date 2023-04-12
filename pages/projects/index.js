@@ -3,9 +3,8 @@ import {useEffect, useState} from 'react'
 import {Fragment} from 'react'
 import ProjectSlider from '../../components/projects/project-slider'
 import ProjectHeader from '../../components/projects/project-header'
-import ContactForm from '../../components/home/contact-form'
-import Footer from '../../components/layout/footer'
-import NavBar from '../../components/layout/navbar'
+import HelloForm from '../../components/contact/hello-form'
+
 
 export default function Projects(props) {
     // console.log(props)
@@ -23,7 +22,7 @@ export default function Projects(props) {
             </ul> */}
             <ProjectHeader />
             <ProjectSlider projects={projects} />
-            <ContactForm />
+            <HelloForm />
         </Fragment>
     )
 }
