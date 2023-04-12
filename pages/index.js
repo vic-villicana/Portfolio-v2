@@ -2,7 +2,7 @@ import Link from 'next/link'
 import {useEffect, useState} from 'react'
 import Header from '../components/home/header'
 import AboutSection from '../components/home/about-section'
-import ContactForm from '../components/home/contact-form'
+import HelloForm from '../components/contact/hello-form'
 import ProjectSlider from '../components/projects/project-slider'
 import Footer from '../components/layout/footer'
 import NavBar from '../components/layout/navbar'
@@ -23,7 +23,7 @@ export default function MainPage() {
             <Header />
             <AboutSection/>
             <ProjectSlider projects={projects} />
-            <ContactForm />
+            <HelloForm />
         </div>
     )
 }
