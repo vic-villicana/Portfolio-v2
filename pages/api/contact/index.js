@@ -8,7 +8,8 @@ export default async function handler(req, res) {
         const submitObj = {
             name: req.body.name,
             email: req.body.email,
-            message:req.body.message
+            message:req.body.message,
+            service:req.body.service
         }
     //here we can make a call to our mongoose models to create and send data to our database     
     
