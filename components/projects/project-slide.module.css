@@ -138,13 +138,16 @@
 
 }
 
+.btnv2 a{
+    width:100%;
+}
 .btnv2{
     display: inline-block;
     background: #0ABAFF;
     color:white;
     /* box-shadow: 4px 4px 9px black; */
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    padding: 0.5em 1em;
+    padding: 0.5em 0;
     margin-top: 1.5em;
     border-radius: 4px;  
     width:45%;
