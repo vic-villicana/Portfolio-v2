@@ -19,7 +19,7 @@
   max-width: 26rem;
   height:570px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items:center;
   flex-direction: column;
   gap: 1rem;
@@ -79,13 +79,19 @@
     
 .control {
       /* flex: 1; */
-      display: flex;
+      /* display: flex; */
       /* gap: 1rem; */
-      align-items: center;
-      justify-content: space-between;
+      /* align-items: center;
+      justify-content: space-between; */
       width:75%;
 }
     
+.control span {
+  color:#C44536;
+  font-size:90%;
+  display:block;
+  height:1em;
+}
 .control label {
       font-weight: bold;
 }

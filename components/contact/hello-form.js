@@ -1,14 +1,24 @@
 import Button from '../ui/Button'
 import classes from './hello-form.module.css'
-import {useRef} from 'react'
+import {useRef, useState, useEffect} from 'react'
 
 export default function ContactForm (){
 
-    const nameRef = useRef()
-    const emailRef = useRef()
-    const messageRef = useRef()
-    const serviceRef = useRef()
     const formRef = useRef()
+    const [errors, setErrors] = useState('')
+
+    useEffect(() => {
+        // console.log(errors)
+    }, [errors])
+
+    function validate(data){
+        const errorObj = {}
+        if(!data.name) errorObj.name = 'name required'
+        if(!data.email) errorObj.email = 'email required'
+        if(!data.message) errorObj.message = 'Ask us something!'
+        setErrors(errorObj)
+        return errors
+    }
 
     function submitForm(e) {
         e.preventDefault()
@@ -20,8 +30,11 @@ export default function ContactForm (){
             service: formRef.current.service.value
 
         }
+        const isErrors = validate(formData)
+        if(Object.keys(errors).length === 0){
+            console.log("we have data")
+        }
 
-        console.log(formData)
     }
 
     return(
@@ -31,7 +44,7 @@ export default function ContactForm (){
             </div>
             <form className={classes.form} ref={formRef} onSubmit={submitForm} >
                 <div className={classes.radioControl} >
-                <p>Im Curious About...</p>
+                <p>Im intrested In...</p>
                     <input label="Website" type="radio" name="service" value="Website"  />
                     <input label="UI/UX Design" type="radio" name="service" value="UI/UX Design" />
                     <input label="Cloud Services" type="radio" name="service" value="Cloud Services" />
@@ -40,14 +53,17 @@ export default function ContactForm (){
                 <div className={classes.control}>
                     <label htmlFor="name"></label>
                     <input name="name" type='text' placeholder="Name"  />
+                    <span>{errors.name}</span>
                 </div>
                 <div className={classes.control}>
                     <label htmlFor="email"></label>
                     <input name="email" type='text' placeholder="Email"  />
+                    <span>{errors.email}</span>
                 </div>
                 <div className={classes.control}>
                     <label htmlFor="textarea"></label>
                     <textarea  name="textarea" type='text' placeholder="How can I help?"  />
+                    <span>{errors.message}</span>
                 </div>
 
                 <Button>Submit</Button>
