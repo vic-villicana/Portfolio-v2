@@ -78,17 +78,6 @@
     height: auto;
 }
 
-
-
-
-
-
-
-
-
-.sliderContainer{
-
-}
 .slideContainer{
     display:flex;
     flex-direction:row;
@@ -142,6 +131,7 @@
     width:100%;
 }
 .btnv2{
+    cursor:pointer;
     display: inline-block;
     background: #0ABAFF;
     color:white;
@@ -152,6 +142,12 @@
     border-radius: 4px;  
     width:45%;
     text-align:center;
+}
+
+.btnv2:hover,
+.btnv2:active {
+  background-color: #02afa1;
+  border-color: #02afa1;
 }
 
 .projectv2{
