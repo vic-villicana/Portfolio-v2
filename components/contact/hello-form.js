@@ -5,10 +5,10 @@ import {useRef, useState, useEffect} from 'react'
 export default function ContactForm (){
 
     const formRef = useRef()
-    const [errors, setErrors] = useState('')
+    const [errors, setErrors] = useState({})
 
     useEffect(() => {
-        // console.log(errors)
+        console.log('useEffect running')
     }, [errors])
 
     function validate(data){
@@ -17,7 +17,7 @@ export default function ContactForm (){
         if(!data.email) errorObj.email = 'email required'
         if(!data.message) errorObj.message = 'Ask us something!'
         setErrors(errorObj)
-        return errors
+        return errorObj
     }
 
     function submitForm(e) {
@@ -31,7 +31,8 @@ export default function ContactForm (){
 
         }
         const isErrors = validate(formData)
-        if(Object.keys(errors).length === 0){
+        if(Object.keys(isErrors).length === 0){
+            console.log(errors)
             fetch('api/contact', {
                 method:"POST",
                 body:JSON.stringify(formData),
@@ -42,10 +43,10 @@ export default function ContactForm (){
             .then((data) => data.json())
             .then(data => console.log(data))
         }
-
     }
-
+    console.log(errors)
     return(
+       
         <section className={classes.formSection}>
             <div className={classes.heading}>
                 <h1>Have a Project in Mind? <br></br> Lets collaborate!</h1>
