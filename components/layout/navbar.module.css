@@ -4,6 +4,7 @@
     padding: 1em 3em .5em 3em;
     align-items:center;
     background:#3F4B3B;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 5px 10px 5px;
 }
 .hamburger{
    opacity:0;
@@ -47,8 +48,10 @@
 }
 
 .navbar{
-    padding: 1.5em 1.5em .5em 1.5em;
-
+    padding: .75em 1.5em .5em 1.5em;
+    position: fixed;
+    z-index: 40;
+    width: 100%;
 }
 
 .hamburger{
@@ -77,6 +80,7 @@
     flex-direction: column;
     justify-content:space-evenly;
     align-items:center;
+    
 }
 
 /* hamburger dropdown menu */
@@ -92,7 +96,7 @@
         right:0;
     }
     .nonActive{
-        right:-150px;
+        right:-157px;
 
     }
 
@@ -104,11 +108,13 @@
         flex-direction:column;
         height:211px;
         width:150px;
+        margin-top:7px;
         background:#3F4B3B;
-        z-index:30;
+        z-index:40;
         transition: all 0.2s;
         opacity:1;
         color:white;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 11px 10px 5px;
     }
 }
 
