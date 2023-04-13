@@ -102,3 +102,20 @@
         padding:8px 14px;
         position: relative;
     }
+
+    @media(max-width:700px){
+        .v2{
+            padding:0;
+        }
+
+        .intro{
+            justify-content: space-evenly;
+        }
+
+        .void{
+            max-width: 360px;
+            display:block;
+            margin:0 auto;
+        }
+
+    }
