@@ -8,7 +8,6 @@ export default function ProjectSlideV2(props) {
             <div className={classes.slideContainer}>
 
                 <div className={classes.projectv2}>
-                    {/* <img className={classes.PJpicturev2} src={props.image} alt="" /> */}
                     <Image className={classes.PJpicturev2} src={props.image} alt={props.title} height={285} width={425}/>
                     <div className={classes.slidev2} >
                         <div className={classes.contentv2}>
@@ -17,12 +16,12 @@ export default function ProjectSlideV2(props) {
                             <p>
                                 {props.description}
                             </p>
-                            <div className={classes.btnv2}>
-                                <Link href={`/projects/${props.id}`}>View Project</Link>
-                            </div>
+
                         </div>
                     </div>
-                    
+                    <div className={classes.btnv2}>
+                        <Link href={`/projects/${props.id}`}>View Project</Link>
+                    </div>
                 </div>
                 
             </div>
