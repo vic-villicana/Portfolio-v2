@@ -1,5 +1,6 @@
 import classes from './footer.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Footer() {
     return (
@@ -7,11 +8,15 @@ export default function Footer() {
             <div className={classes.fLine}></div>
             <div className={classes.footer}>
                 <div className={classes.iconGroup}>
-                    <Image className={classes.fIcon}src={'/images/ionicons_linkedin.svg'} alt="" height={45} width={45}/>
-                    <Image className={classes.fIcon}src={'/images/ionicons_github.svg'} alt="" height={45} width={45}/>
+                    <Link href="https://www.linkedin.com/in/victor-uribe-v/">
+                        <Image className={classes.fIcon}src={'/images/ionicons_linkedin.svg'} alt="" height={45} width={45}/>
+                    </Link>
+                    <Link href="https://github.com/vic-villicana">
+                        <Image className={classes.fIcon}src={'/images/ionicons_github.svg'} alt="" height={45} width={45}/>
+                    </Link>
                 </div>
                 <div className={classes.trademark}>
-                    <p> shawty&reg; all rights reserved</p>
+                    <p> Victor Uribe &copy; all rights reserved</p>
                 </div>
             </div>
         </footer>
