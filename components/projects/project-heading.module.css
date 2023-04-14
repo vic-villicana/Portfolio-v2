@@ -5,14 +5,13 @@
 }
 
 .headerTwo{
-   
         position: relative;
         height: 750px;
         width: 100%;
         background: url(/images/sign.jpg);
         background-position: center;
         background-size: cover;
-
+        display:flex;
 }
 .void p{
         color:white;
@@ -22,7 +21,7 @@
         color: #8fe7f7;
         font-family:'Exo 2', sans-serif;
         font-size: 2em;
-        margin: 0.67em 0;
+        margin:0 0 0.67em 0;
 }
 .void{
         background: black;
@@ -43,7 +42,7 @@
 .v2{
         padding:1.25em 1em;
         text-align: left;
-        height:330px;
+        height:fit-content;
 }
 
 .btn {
@@ -119,10 +118,14 @@
             justify-content: space-evenly;
         }
 
+        .void h1{
+            font-size: 1.75em;
+
+        }
         .void{
-            max-width: 360px;
-            display:block;
+            width: 360px;
             margin:0 auto;
+            padding: 1em;
         }
 
     }

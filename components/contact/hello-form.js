@@ -43,10 +43,10 @@ export default function ContactForm (){
             .then((data) => data.json())
             .then(data => console.log(data))
         }
+        
     }
-    console.log(errors)
+
     return(
-       
         <section className={classes.formSection}>
             <div className={classes.heading}>
                 <h1>Have a Project in Mind? <br></br> Lets collaborate!</h1>

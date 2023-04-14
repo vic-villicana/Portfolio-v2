@@ -20,7 +20,7 @@ export default function ProjectSlideV2(props) {
                         </div>
                     </div>
                     <div className={classes.btnv2}>
-                        <Link href={`/projects/${props.id}`}>View Project</Link>
+                        <Link href={`/${props.id}`}>View Project</Link>
                     </div>
                 </div>
                 
