@@ -49,3 +49,14 @@
 .item p{
 
 }
+
+@media(max-width:700px){
+    .mainContainer{
+        height:auto;
+        padding-top:4em;
+    }
+
+    .rowProcess{
+        flex-direction:column;
+    }
+}

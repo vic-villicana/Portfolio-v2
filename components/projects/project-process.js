@@ -1,4 +1,4 @@
-import classes from './contract-process.module.css'
+import classes from './project-process.module.css'
 export default function ProjectProcess(){
     return(
         <div className={classes.mainContainer}>
