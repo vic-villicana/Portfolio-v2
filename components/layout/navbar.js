@@ -1,6 +1,7 @@
 import Link from "next/link"
 import {useState} from 'react'
 import classes from './navbar.module.css'
+import Image from 'next/image'
 
 export default function Navbar() {
 
@@ -28,6 +29,7 @@ export default function Navbar() {
                 </li>
             </div>
             <div className={classes.hamburger}>
+                <Image className={classes.close} src="/images/close.svg" alt="closed" height={45} width={45} />
                 <div className={classes.hIcon} onClick={() => setTheActive(!active)}>
                     <div></div>
                     <div></div>

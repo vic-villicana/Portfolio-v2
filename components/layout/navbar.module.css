@@ -60,6 +60,10 @@
     display:block;
 }
 
+.close{
+    padding-right:8px;
+    display:none;
+}
 
 
 /* hamburger button */
