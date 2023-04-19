@@ -6,7 +6,9 @@ export default function Projectflex() {
         <div className={classes.proInfo}>
             <div className={`${classes.proInfoContainer} ${classes.respo}`}>    
                 <div className={`${classes.imgContainer}`}>
-                    <Image src="/images/juicyshot.png" alt="" height="615" width="300" />
+                    <div className={classes.imagine}>
+                        <Image src="/images/juicyshot.png" alt="" height="615" width="300" />
+                    </div>
                     <div className={`${classes.bioSquare} ${classes.bs-5}`} >
                         <h2>A robust web app hosted on aws</h2>
                         <p>

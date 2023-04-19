@@ -101,6 +101,10 @@
     border-radius:6px;
 
 }
+.contentv2 h2{
+    text-transform:Capitalize;
+}
+
 .contentv2{
     /* position: absolute; */
     bottom: 141px;

@@ -43,6 +43,8 @@
         padding:1.25em 1em;
         text-align: left;
         height:fit-content;
+        margin: 0 auto;
+
 }
 
 .btn {
@@ -82,9 +84,9 @@
     }
     
     .PJtext{
-        width:80%;
-        margin:0 auto;
-        position:relative;
+        width: 95%;
+        margin: 1.5rem 0;
+        position: relative;
     }
     
     .PJtext p{
@@ -126,6 +128,10 @@
             width: 360px;
             margin:0 auto;
             padding: 1em;
+        }
+
+        .headerTwo{
+            height:700px;
         }
 
     }

@@ -1,4 +1,4 @@
-import classes from './project-heading.module.css'
+import classes from './tipsy-heading.module.css'
 import Image from 'next/image'
 export default function TipsyHeading() {
     return (

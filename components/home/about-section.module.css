@@ -27,10 +27,14 @@
 
 .bioSquare h2{
     font-size:190%;
+    font-family: 'Exo 2', sans-serif;
+    padding-bottom:.5em;
+    text-transform:capitalize;
+
 }
 .bioSquare{
     max-width: 75%;
-    margin:2em auto 0em auto;
+    margin:1em auto 0em auto;
     color: white;
     font-size:160%;
 }

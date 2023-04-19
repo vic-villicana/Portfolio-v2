@@ -4,6 +4,7 @@
     padding: 1em 3em .5em 3em;
     align-items:center;
     background:#3F4B3B;
+    text-transform:capitalize;
     /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 5px 10px 5px; */
 }
 .hamburger{
@@ -25,6 +26,8 @@
     list-style:none;
     display: flex;
     flex-direction:row;
+    font-family: 'Exo 2', sans-serif;
+
 }
 
 .hamLinks{
@@ -118,6 +121,8 @@
         transition: all 0.2s;
         opacity:1;
         color:white;
+        font-family:'Exo 2',  sans-serif;
+        text-transform:capitalize;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 11px 10px 5px;
     }
 }

@@ -27,13 +27,14 @@
     width: 100%;
 }
 .bioSquare p {
-    font-size:120%;
+    font-size:1.20rem;
 }
 .bioSquare h2 {
     font-family: 'Exo 2', sans-serif;
     padding-bottom: 0.5em;
-    color: #8fe7f7;
-    font-size: 2.5em;
+    /* color: #8fe7f7; */
+    font-size: 2rem;
+    text-transform:capitalize;
 }
 .bioSquare {
     max-width: 50%;
@@ -54,6 +55,10 @@
 @media(max-width:700px){
     .imgContainer {
         flex-direction:column;
+    }
+
+    .imagine{
+        margin-bottom:2rem;
     }
 
     .bioSquare {

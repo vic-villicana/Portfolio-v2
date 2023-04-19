@@ -16,10 +16,10 @@ export default function TipsyFlex(){
                 </div>
                 <div className={`${classes.respo} ${classes.proInfoContainer}`}>    
                 <div className={`${classes.imgContainer}`}>
-                <img src="/images/screentipsytwo.png" alt="" height="135" width="85"/>
-                <img src="/images/screentipsyone.png" alt="" height="135" width="210"/>
-                <img src="/images/tipsyscreentwo.png" alt="" height="160" width="260"/>      
-                <img src="/images/tipsyscreenone.png" alt="" height="510" width="285"/>
+                <Image src="/images/screentipsytwo.png" alt="mobile screenshot" height="135" width="85"/>
+                <Image src="/images/screentipsyone.png" alt="desktop screenshot" height="135" width="210"/>
+                <Image src="/images/tipsyscreentwo.png" alt="desktop screenshot" height="160" width="260"/>      
+                <Image src="/images/tipsyscreenone.png" alt="mobile screenshot" height="510" width="285"/>
             </div>
             <div className={classes.bs3}>
                 <h2>Responsive For Every Device</h2>

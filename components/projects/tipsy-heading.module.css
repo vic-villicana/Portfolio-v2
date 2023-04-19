@@ -1,0 +1,134 @@
+.juiceHead{
+    background: url(/images/bar-bartender.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.headerTwo{
+    position: relative;
+    height: 750px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display:flex;
+}
+.void p{
+    color:white;
+    font-size:85%;
+}
+.void h1{
+    color: #8fe7f7;
+    font-family:'Exo 2', sans-serif;
+    font-size: 2em;
+    margin:0 0 0.67em 0;
+}
+.void{
+    background: black;
+    height: auto;
+    z-index:30;
+    position: relative;
+    max-width: 450px;
+    /* padding-top: 2em; */
+    text-align: center;
+    top: 20%;
+    display: inline-block;
+    font-size: 1.25rem;
+    -webkit-box-shadow: 1px 3px 4px 5px rgba(19, 19, 19, 0.562);
+    -moz-box-shadow: 1px 3px 4px 5px rgba(19, 19, 19, 0.562);
+    box-shadow: 1px 2px 3px 4px rgba(19, 19, 19, 0.562);
+}
+
+.v2{
+    padding:1.25em 1em;
+    text-align: left;
+    height:fit-content;
+}
+
+.btn {
+    display: inline-block;
+    background: #B3001B;
+    padding: 0.25em .75em;
+    margin-top: 1.5em;
+    border-radius: 4px;
+    color:white;
+}
+
+.PJheader{
+    position:relative;
+    height:35em;
+    display:flex;
+}
+
+.picture{
+    width:100%;
+    height: 100%;
+}
+
+.headerImage{
+    height:100%;
+    width:100%;
+}
+
+.intro{
+    background:black;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height: 100%;
+    justify-content: space-between;
+    font-family:'Exo 2', sans-serif;
+}
+
+.PJtext{
+    width:80%;
+    margin:0 auto;
+    position:relative;
+}
+
+.PJtext p{
+    text-align:justify;
+}
+.PJtext h2{
+    margin-bottom:.5em;
+    text-align: center;
+
+}
+
+.hollowBtn{
+    border:aliceblue 1px solid;
+    padding:8px 14px;
+    position: relative;
+}
+
+.hollowBtn:hover,
+.hollowbtn:active{
+    background:white;
+    color:black;
+    font-weight:bold;
+}
+
+@media(max-width:700px){
+    .v2{
+        padding:0;
+    }
+
+    .intro{
+        justify-content: space-evenly;
+    }
+
+    .void h1{
+        font-size: 1.75em;
+
+    }
+    .void{
+        width: 360px;
+        margin:0 auto;
+        padding: 1em;
+    }
+
+    .headerTwo{
+        height:700px;
+    }
+
+}
