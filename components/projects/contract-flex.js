@@ -8,21 +8,22 @@ export default function Contractflex() {
             <div className={`${classes.proInfoContainer} ${classes.respo}`}>    
                 <div className={`${classes.imgContainer}`}>
                     <div className={classes.imagine}>
-                        <Image src="/images/juicyshot.png" alt="" height="615" width="300" />
+                        <Image src="/images/contract.png" alt="" height="350" width="640" unoptimized />
                     </div>
                     <div className={`${classes.bioSquare} ${classes.bs-5}`} >
-                        <h2>A robust web app hosted on aws</h2>
+                        <h2>Decentralized Lottery</h2>
                         <p>
-                        One of the most important aspects of web development is having a robust web
-                        app that can scale to the demand of the network/users with no latency. 
-                        thankfully, cloud infrastructure like AWS Amplify is specifically built for this 
-                        scenario. AWS Amplify allows you to create full-stack apps, frontend UI and backends
-                        visually, with authentication, storage, data, and more.
+                            One of the most important aspects of Blockchain technology is having the ability to 
+                            verify exactly what goes on behind the scenes of a decentralized application.
+                            In this example we have the ability to verify that the selected winner is in-fact 
+                            selected at random. Eliminating the problem the mcdonalds monopoly game had where 
+                            winners of the game paid for winning tickets.
+                        
                         </p>
                         <br></br>
-                        <p>
+                        {/* <p>
                         With the emergence of mobile browsing making up more than 50% of all web browsing, I decided to take a mobile first approach instead of the common approach of initially designing for the desktop. The process was a little diffrent considering the compact nature of mobile design so lets see how it all went down.    
-                        </p>
+                        </p> */}
                     </div>
                 </div>
             </div> 

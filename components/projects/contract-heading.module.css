@@ -1,5 +1,4 @@
 .juiceHead{
-    background: url(/images/sign.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -8,7 +7,7 @@
     position: relative;
     height: 750px;
     width: 100%;
-    background: url(/images/sign.jpg);
+    background: url(/images/future2.jpg);
     background-position: center;
     background-size: cover;
     display:flex;
