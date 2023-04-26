@@ -1,8 +1,10 @@
 import classes from './project-heading.module.css'
+import Image from 'next/image'
 
 export default function ProjectHeading() {
     return (
         <div className={`${classes.headerTwo} ${classes.juiceHead}`}>
+        <Image src="/images/sign.jpg" alt="futuristic" fill object-fit="cover"/>
         <div className={`${classes.void} ${classes.v2}`}>
           <h1>Juicy Juize Tacos</h1>
             <p>

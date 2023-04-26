@@ -1,8 +1,9 @@
 import classes from './contract-heading.module.css'
-
+import Image from 'next/image'
 export default function ContractHeading() {
     return (
         <div className={`${classes.headerTwo} ${classes.juiceHead}`}>
+        <Image src="/images/future2.jpg" alt="futuristic" fill object-fit='cover'/>
         <div className={`${classes.void} ${classes.v2}`}>
           <h1>The SmartContract Lottery</h1>
             <p>

@@ -7,9 +7,9 @@
     position: relative;
     height: 750px;
     width: 100%;
-    background: url(/images/future2.jpg);
+    /* background: url(/images/future.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
     display:flex;
 }
 .void p{

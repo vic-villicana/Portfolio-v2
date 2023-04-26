@@ -3,6 +3,7 @@ import Image from 'next/image'
 export default function TipsyHeading() {
     return (
         <div className={`${classes.headerTwo} ${classes.juiceHead}`}>
+            <Image src="/images/bar-bartender.jpg" alt="taco sign" fill object-fit="cover" /> 
         <div className={`${classes.void} ${classes.v2}`}>
             <Image src={"/images/tipsylogowhite.svg"} alt="company logo" width={225} height={75} />
             <p>

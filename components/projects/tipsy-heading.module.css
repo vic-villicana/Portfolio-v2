@@ -1,15 +1,15 @@
-.juiceHead{
+/* .juiceHead{
     background: url(/images/bar-bartender.jpg);
     background-position: center;
     background-size: cover;
-}
+} */
 
 .headerTwo{
     position: relative;
     height: 750px;
     width: 100%;
-    background-position: center;
-    background-size: cover;
+    /* background-position: center;
+    background-size: cover; */
     display:flex;
 }
 .void p{
