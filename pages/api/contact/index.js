@@ -1,24 +1,43 @@
 import {MongoClient} from 'mongodb'
 
+ async function connectDatabase() {
+    const clientString = `mongodb+srv://${process.env.mongodb_username}:${process.env.mongodb_password}@${process.env.mongodb_clustername}.kpfoh1o.mongodb.net/?retryWrites=true&w=majority`
+    const client = await MongoClient.connect(clientString)
+    return client
+}
+
+async function insertDocument(client, submitObj){
+    const db = client.db("mgmt_db");
+
+    await db.collection('messages').insertOne({ submitObj })
+}
+
 export default async function handler(req, res) {
-    const client = await MongoClient.connect('mongodb+srv://ocelot:NMUvk0cofvfdD2gX@cluster0.kpfoh1o.mongodb.net/?retryWrites=true&w=majority')
+
 
     if(req.method === "POST"){
-   
-        const submitObj = {
-            name: req.body.name,
-            email: req.body.email,
-            message:req.body.message,
-            service:req.body.service
-        }
-    //here we can make a call to our mongoose models to create and send data to our database     
     
-        
-        const db = client.db("mgmt_db");
+        let client
+        try{
+            client = await connectDatabase()
 
-        await db.collection('messages').insertOne({ submitObj })
-        client.close()
-        console.log(submitObj)
+        }catch(err){
+            res.status(500).json({message:'failed to connect'})
+        }
+
+        try{
+            const submitObj = {
+                name: req.body.name,
+                email: req.body.email,
+                message:req.body.message,
+                service:req.body.service
+            }
+            await insertDocument(client, submitObj)
+            client.close()
+        }catch(err){
+            res.status(500).json({message:'data insertion failed.'})
+        }
+        
         res.status(201).json({message: 'it worked'})
     }
 
