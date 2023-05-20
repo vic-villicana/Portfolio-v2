@@ -14,7 +14,7 @@ export default function Navbar() {
         <div className={classes.navbar}>
             <div className={classes.logo}>
                 <Link href='/'>
-                    <img src="/images/logo.svg" alt="thunderbolt" />
+                    <Image src="/images/logo.svg" alt="thunderbolt" height={35} width={72}/>
                 </Link>
             </div>
             <div className={classes.links}>
