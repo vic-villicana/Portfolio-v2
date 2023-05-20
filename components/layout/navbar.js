@@ -22,7 +22,7 @@ export default function Navbar() {
                     <Link href='/projects' >projects </Link>
                 </li>
                 <li>
-                    <Link href='/blog'>blog </Link>
+                    <Link href='#about'>about </Link>
                 </li>
                 <li>
                     <Link href='/contact' >contact </Link>
@@ -40,7 +40,7 @@ export default function Navbar() {
                         <Link href='/projects' >projects </Link>
                     </li>
                     <li>
-                        <Link href='/blog'>blog </Link>
+                        <Link href='#about'>about </Link>
                     </li>
                     <li>
                         <Link href='/contact' >contact </Link>

@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function AboutSection(){
     return (
-        <section className={classes.aboutMe}>
+        <section className={classes.aboutMe} id="about">
             <Image className={classes.picture} src="/images/portfolio-pic.jpg" alt="face" height={600} width={400} />
             <div className={classes.bio}>
                 <div className={classes.bioSquare}>
