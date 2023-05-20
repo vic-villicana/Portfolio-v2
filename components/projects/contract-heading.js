@@ -7,13 +7,13 @@ export default function ContractHeading() {
         <div className={`${classes.void} ${classes.v2}`}>
           <h1>The SmartContract Lottery</h1>
             <p>
-                One of my personal projects where i explore the 
+                One of my personal projects where I explore the 
                 possibilities and limits of blockchain technology. 
                 This project focuses on creating a decentralized 
                 solution to crowd funding where all users have 
                 access to donation details.
             </p>
-            <div className={classes.btn}><a href="https://github.com/vic-villicana">GitHub Repo</a></div>
+            <div className={classes.btn}><a href="https://github.com/vic-villicana/Decentralized-Lottery">GitHub Repo</a></div>
         </div> 
       </div>
     )
