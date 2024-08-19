@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   env:{
     mongodb_username:'ocelot',
-    mongodb_password:'NMUvk0cofvfdD2gX',
+    mongodb_password:'uWi4j4UobJdVfcbo',
     mongodb_clustername:'cluster0',
   }
 }

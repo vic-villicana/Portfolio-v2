@@ -5,7 +5,7 @@ import classes from './project-slide.module.css'
 export default function ProjectSlider(props) {
     console.log(props)
 
-    const allProjects = props.projects.map(project => <ProjectSlideV2 key={project.pjid} id={project.pjid} title={project.title} description={project.description} image={project.image} />)
+    const allProjects = props.projects.map(project => <ProjectSlideV2 key={project._id} id={project._id} title={project.title} description={project.description} image={project.imageUrl} />)
     console.log(allProjects)
     return(
         <section className={classes.sliderSection}>

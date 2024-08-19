@@ -10,7 +10,7 @@ export default function Projects(props) {
     // console.log(props)
     const [projects, setProjects] = useState([])
     useEffect(() => {
-        fetch('/api/projects').then(response => response.json()).then(data => setProjects(data.projects))
+        fetch('api/projects').then(response => response.json()).then(data => setProjects(data.projects))
     }, [])
     return (
         <Fragment>
