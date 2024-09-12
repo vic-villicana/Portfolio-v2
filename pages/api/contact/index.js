@@ -7,7 +7,7 @@ import {MongoClient} from 'mongodb'
 }
 
 async function insertDocument(client, submitObj){
-    const db = client.db("mgmt_db");
+    const db = client.db("mgmt-DB");
 
     await db.collection('messages').insertOne({ submitObj })
 }
